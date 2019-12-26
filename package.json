@@ -10,7 +10,7 @@
     "serve": "node dist/server.js",
     "watch-node": "nodemon dist/server.js",
     "watch-ts": "tsc -w",
-    "test": "jest src"
+    "test": "jest test"
   },
   "jest": {
     "transform": {
