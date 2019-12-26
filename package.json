@@ -5,7 +5,7 @@
   "main": "dist/server.js",
   "scripts": {
     "build-ts": "tsc",
-    "postinstall": "npm run test & npm run build-ts",
+    "postinstall": "npm run test && npm run build-ts",
     "start": "npm run server",
     "serve": "node dist/server.js",
     "watch-node": "nodemon dist/server.js",
@@ -33,6 +33,7 @@
     "node": "8.11.4"
   },
   "devDependencies": {
+    "@types/express": "^4.17.2",
     "@types/jest": "^24.0.24",
     "@types/supertest": "^2.0.8",
     "jest": "^24.9.0",
@@ -43,7 +44,6 @@
     "typescript": "^3.7.4"
   },
   "dependencies": {
-    "@types/express": "^4.17.2",
     "express": "^4.17.1"
   }
 }
