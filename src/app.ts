@@ -3,5 +3,5 @@
 import express from 'express';
 
 const app = express();
-app.get('/', (req, res) => res.send(`Hello, Belle!`));
+app.get('/', (req, res) => res.send(`Hello, Arthur!`));
 export default app;
