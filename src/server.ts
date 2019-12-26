@@ -1,8 +1,6 @@
-import express from 'express';
+// server 運行
 
-const PORT = process.env.PORT || 3333
-const app = express();
+import app from "./app";
 
-app.get('/', (req, res) => res.send(`Hello, Arthur!`));
-
+const PORT = process.env.PORT || 3333;
 app.listen(PORT, () => console.log(`TypeScrupt App listening on ${PORT}!`));
